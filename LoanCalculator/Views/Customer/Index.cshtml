@@ -1,0 +1,353 @@
+﻿@model IEnumerable<LoanCalculator.Models.LoanDetail>
+
+<!-- Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+<style>
+    :root {
+        --primary-green: #28a745;
+        --light-green: #58d68d;
+        --hover-green: #1e7e34;
+        --bg-light: #f0f8f2;
+        --white: #ffffff;
+    }
+
+    body {
+        background-color: var(--bg-light);
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card {
+        border: none;
+        background: var(--white);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-primary {
+        background: var(--primary-green);
+        border: none;
+        transition: 0.3s ease-in-out;
+    }
+
+        .btn-primary:hover {
+            background: var(--hover-green);
+        }
+
+    .form-control, .form-select {
+        border-radius: 8px;
+        border: 1px solid var(--light-green);
+    }
+
+    h4 {
+        color: var(--primary-green);
+        font-weight: bold;
+    }
+
+    /* Table Styling */
+    .table-container {
+        overflow-x: auto;
+        border-radius: 10px;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: auto;
+    }
+
+    table{
+        border: solid 1px var(--light-green);
+    }
+
+        .table th {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            padding: 8px;
+            font-size: 13px;
+        text-align: center;
+        }
+
+        .table td {
+            color: black;
+            padding: 8px;
+            font-size: 13px;
+            white-space: nowrap;
+            text-align: left;
+        }
+
+    
+
+    /* Responsive Table */
+    @@media (max-width: 992px) {
+        .table-container
+
+    {
+        overflow-x: auto;
+    }
+
+    .table th, .table td {
+        font-size: 10px;
+        padding: 3px;
+        white-space: nowrap;
+    }
+
+    }
+
+    @@media (max-width: 768px) {
+        .table thead
+
+    {
+        display: none;
+    }
+
+    .table tbody tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid var(--light-green);
+        border-radius: 8px;
+        padding: 10px;
+        background: var(--white);
+    }
+
+        .table tbody tr td {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px;
+            border-bottom: 1px solid var(--light-green);
+        }
+
+            .table tbody tr td:last-child {
+                border-bottom: none;
+            }
+
+            .table tbody tr td::before {
+                content: attr(data-label);
+                font-weight: bold;
+                color: var(--primary-green);
+            }
+
+    }
+
+    /* Style DataTables Buttons */
+    .dt-buttons button {
+        background: var(--primary-green) !important;
+        border: none !important;
+        color: var(--white) !important;
+        padding: 8px 12px !important;
+        border-radius: 8px !important;
+        transition: 0.3s ease-in-out;
+        font-weight: bold;
+    }
+
+        /* Hover Effect */
+        .dt-buttons button:hover {
+            background: var(--hover-green) !important;
+        }
+
+    /* Space Between Buttons */
+    .dt-buttons {
+        margin-bottom: 10px !important;
+    }
+
+</style>
+
+<div class="container-fluid mt-5">
+    <div class="row gy-4">
+        <!-- Loan Calculator Form -->
+        <div class="col-lg-4">
+            <div class="card p-4 shadow-lg">
+                <h4 class="mb-3 text-center">LOAN FORM</h4>
+                <form asp-action="CreateCustomerDetail" asp-controller="Customer" method="post" id="loanForm">
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Loan Amount:</label>
+                        <input type="number" class="form-control" name="LoanAmt" id="loanAmount" required>
+                        <small id="loanAmtHelper" class="form-text text-muted">Minimum loan amount is 10,000.</small>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Due Date:</label>
+                        <input type="date" class="form-control" name="DueDate" id="dueDate" required>
+                        <small id="dueDateHelper" class="form-text text-muted">Select a future date.</small>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Loan Term:</label>
+                        <select class="form-select" name="LoanTerm" id="loanTerm" required>
+                            <option value="" selected disabled>Select Term</option>
+                            <option value="1">1 Month</option>
+                            <option value="2">2 Months</option>
+                            <option value="3">3 Months</option>
+                            <option value="4">4 Months</option>
+                            <option value="5">5 Months</option>
+                            <option value="6">6 Months</option>
+                        </select>
+                        <small id="loanTermHelper" class="form-text text-muted">Choose a loan term.</small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100 py-2">Calculate</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Customer Details Table -->
+        <div class="col-lg-8">
+            <div class="card p-4 shadow-lg">
+                <h4 class="mb-3 text-center">CUSTOMER DETAILS</h4>
+                <div class="table-container" style="padding: 5px;">
+                    <table class="table table-bordered align-middle text-center datatable">
+                        <thead>
+                            <tr>
+                                <th>Customer No</th>
+                                <th>Loan Amount</th>
+                                <th>Loan Term</th>
+                                <th>Due Date</th>
+                                <th>Principal</th>
+                                <th>Interest</th>
+                                <th>Insurance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (Model != null && Model.Any())
+                            {
+                                @foreach (var loan in Model)
+                                {
+                                    <tr>
+                                        <td>@loan.CustomerNo</td>
+                                        <td>@loan.LoanAmount.ToString("C")</td>
+                                        <td>@loan.LoanTerm</td>
+                                        <td>@loan.DueDate.ToString("MMMM dd, yyyy")</td>
+                                        <td>@loan.Principal.ToString("C")</td>
+                                        <td>@loan.Interest.ToString("C")</td>
+                                        <td>@loan.Insurance.ToString("C")</td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="8" class="text-center">No loan records found.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function () {
+                    $(document).ready(function () {
+            $('.datatable').DataTable({
+                paging: true,
+                searching: true,
+                ordering: false,
+                info: true,
+                responsive: true,
+                pageLength: 6, // Limit to 6 records per page
+                dom: '<"top" Bfr>t<"bottom" ip>', // Place buttons at the top
+                buttons: [
+                    {
+                        extend: 'copy',
+                        text: '<i class="bi bi-clipboard"></i> Copy'
+                    },
+                    {
+                        extend: 'excel',
+                        text: '<i class="bi bi-file-earmark-excel"></i> Excel'
+                    },
+                    {
+                        extend: 'pdf',
+                        text: '<i class="bi bi-file-earmark-pdf"></i> PDF'
+                    },
+                    {
+                        extend: 'print',
+                        text: '<i class="bi bi-printer"></i> Print'
+                    }
+                ]
+            });
+        });
+
+
+            // Delete confirmation alert
+            $(".delete-btn").click(function () {
+                var customerId = $(this).data("id");
+                Swal.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#d33",
+                    cancelButtonColor: "#3085d6",
+                    confirmButtonText: "Yes, delete it!"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        $("#delete-form-" + customerId).submit();
+                    }
+                });
+            });
+
+            // SweetAlert for Success
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <text>
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Success!',
+                                text: '@TempData["SuccessMessage"]',
+                                    confirmButtonColor: '#28a745'
+                            });
+                </text>
+            }
+
+                // SweetAlert for Error
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <text>
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error!',
+                                text: '@TempData["ErrorMessage"]',
+                                confirmButtonColor: '#d33'
+                            });
+                </text>
+            }
+        });
+
+                document.addEventListener("DOMContentLoaded", function () {
+            const loanAmount = document.getElementById("loanAmount");
+            const loanAmtHelper = document.getElementById("loanAmtHelper");
+            const dueDate = document.getElementById("dueDate");
+            const dueDateHelper = document.getElementById("dueDateHelper");
+
+            function updateHelperText(element, text, isValid) {
+                element.textContent = text;
+                element.classList.remove("text-muted", "text-danger", "text-success");
+                element.classList.add(isValid ? "text-success" : "text-danger");
+            }
+
+            loanAmount.addEventListener("input", function () {
+                if (loanAmount.value < 10000) {
+                    updateHelperText(loanAmtHelper, "Loan amount must be at least 10,000.", false);
+                } else {
+                    updateHelperText(loanAmtHelper, "Valid loan amount.", true);
+                }
+            });
+
+            dueDate.addEventListener("input", function () {
+                const selectedDate = new Date(dueDate.value);
+                const today = new Date();
+                today.setHours(0, 0, 0, 0);
+
+                if (selectedDate < today) {
+                    updateHelperText(dueDateHelper, "Due date cannot be in the past.", false);
+                } else {
+                    updateHelperText(dueDateHelper, "Valid due date.", true);
+                }
+            });
+        });
+    </script>
+}

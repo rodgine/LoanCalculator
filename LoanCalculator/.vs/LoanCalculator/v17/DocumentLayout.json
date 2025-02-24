@@ -1,0 +1,542 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\data\\loandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\services\\loanapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:services\\loanapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\loanapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\controllers\\apicustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\models\\loandetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:models\\loandetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\models\\loandetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\models\\customerdtl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\models\\customerdtldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:models\\customerdtldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\models\\customerdtlviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:models\\customerdtlviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\models\\inventorytbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\models\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:models\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\models\\inventoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:models\\inventoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|c:\\users\\haight\\source\\repos\\loancalculator\\loancalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{462662D5-3CE0-4082-8255-467D1464AADA}|LoanCalculator.csproj|solutionrelative:loancalculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E57907D2-929F-47BE-9AF7-1862EA401DE2}|..\\LoanAPI\\LoanAPI.csproj|c:\\users\\haight\\source\\repos\\loanapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 98,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "..\\LoanAPI\\Services\\TokenService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:18:59.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T00:37:28.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoanDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Data\\LoanDbContext.cs",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Data\\LoanDbContext.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Data\\LoanDbContext.cs",
+              "RelativeToolTip": "..\\LoanAPI\\Data\\LoanDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T08:29:10.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\LoanAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T09:05:09.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:27:35.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Program.cs",
+              "RelativeToolTip": "..\\LoanAPI\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T02:48:50.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\appsettings.json",
+              "RelativeToolTip": "..\\LoanAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-15T23:53:27.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoanApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Services\\LoanApiService.cs",
+              "RelativeDocumentMoniker": "Services\\LoanApiService.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Services\\LoanApiService.cs",
+              "RelativeToolTip": "Services\\LoanApiService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:23:37.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T06:37:52.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoanAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\LoanAPI.csproj",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\LoanAPI.csproj",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\LoanAPI.csproj",
+              "RelativeToolTip": "..\\LoanAPI\\LoanAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-15T08:19:24.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\LoanAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:20:46.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:31:09.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T00:39:30.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:38:08.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:30:01.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "Models\\TokenResponse.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\TokenResponse.cs",
+              "RelativeToolTip": "Models\\TokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:35:48.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T00:34:48.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAKQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T14:35:09.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "APICustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Controllers\\APICustomerController.cs",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Controllers\\APICustomerController.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Controllers\\APICustomerController.cs",
+              "RelativeToolTip": "..\\LoanAPI\\Controllers\\APICustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:19:24.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoanDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Models\\LoanDetail.cs",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Models\\LoanDetail.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Models\\LoanDetail.cs",
+              "RelativeToolTip": "..\\LoanAPI\\Models\\LoanDetail.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:15:51.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerDtl.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Models\\CustomerDtl.cs",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Models\\CustomerDtl.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Models\\CustomerDtl.cs",
+              "RelativeToolTip": "..\\LoanAPI\\Models\\CustomerDtl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T23:52:16.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T07:25:44.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoanDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\LoanDetail.cs",
+              "RelativeDocumentMoniker": "Models\\LoanDetail.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\LoanDetail.cs",
+              "RelativeToolTip": "Models\\LoanDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:07:36.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.html",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\wwwroot\\Index.html",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\wwwroot\\Index.html",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\wwwroot\\Index.html",
+              "RelativeToolTip": "..\\LoanAPI\\wwwroot\\Index.html",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-16T09:03:17.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomerDtlViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\CustomerDtlViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerDtlViewModel.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\CustomerDtlViewModel.cs",
+              "RelativeToolTip": "Models\\CustomerDtlViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:19:32.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerDtlDto.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\CustomerDtlDto.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerDtlDto.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\CustomerDtlDto.cs",
+              "RelativeToolTip": "Models\\CustomerDtlDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T09:11:41.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\CustomerViewModel.cs",
+              "RelativeToolTip": "Models\\CustomerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T13:59:55.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InventoryTbl.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Models\\InventoryTbl.cs",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\Models\\InventoryTbl.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\Models\\InventoryTbl.cs",
+              "RelativeToolTip": "..\\LoanAPI\\Models\\InventoryTbl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T23:51:43.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\CustomerDto.cs",
+              "RelativeToolTip": "Models\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T06:21:37.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InventoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\InventoryViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\InventoryViewModel.cs",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\Models\\InventoryViewModel.cs",
+              "RelativeToolTip": "Models\\InventoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:01:07.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoanCalculator.csproj",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\LoanCalculator.csproj",
+              "RelativeDocumentMoniker": "LoanCalculator.csproj",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanCalculator\\LoanCalculator.csproj",
+              "RelativeToolTip": "LoanCalculator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-16T14:17:49.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\LoanAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Haight\\source\\repos\\LoanAPI\\appsettings.Development.json",
+              "RelativeToolTip": "..\\LoanAPI\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-15T08:13:54.765Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

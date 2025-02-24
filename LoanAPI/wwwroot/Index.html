@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Dashboard</title>
+
+    <!-- MaterializeCSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Glassmorphism Card */
+        .card-container {
+            background: rgba(255, 255, 255, 0.6);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        /* API Icon */
+        .status-icon {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+
+        /* Button Styling */
+        .btn-custom {
+            background-color: #007bff;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+            .btn-custom:hover {
+                background-color: #28a745;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container center-align">
+        <div class="row">
+            <div class="col s12">
+                <div class="card-container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4436/4436481.png" class="status-icon" alt="API Running">
+
+                    <h4 class="blue-text text-darken-2">API is Live</h4>
+                    <p>Welcome to your API dashboard. Click below to access the documentation.</p>
+
+                    <a href="/swagger" class="btn btn-custom waves-effect waves-light">View API Docs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize JavaScript (Optional for components) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>

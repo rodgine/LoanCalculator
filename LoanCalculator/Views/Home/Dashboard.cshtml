@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-100 h-screen flex flex-col items-center justify-center">
+    <div class="w-full max-w-lg p-6 bg-white rounded-lg shadow-lg text-center">
+        <h2 class="text-2xl font-bold text-green-700">Welcome to Loan Dashboard</h2>
+        <p class="mt-4 text-green-600">You are successfully logged in.</p>
+
+        <a href="@Url.Action("Logout", "Account")" class="mt-6 inline-block bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700">
+            Logout
+        </a>
+    </div>
+</body>
+</html>
